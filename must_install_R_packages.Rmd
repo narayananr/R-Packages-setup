@@ -26,6 +26,7 @@ install.packages("RColorBrewer")
 
 ## Bioconductor packages
 source("https://bioconductor.org/biocLite.R")
+biocLite("org.Mm.eg.db")
 biocLite("qvalue")
 biocLite("sva")
 biocLite("DESeq2")
