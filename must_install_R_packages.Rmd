@@ -24,6 +24,8 @@ install.packages("Rcpp")
 install.packages("data.table")
 install.packages("broom")
 install.packages("RColorBrewer")
+install.packages("qtl")
+
 
 ## Bioconductor packages
 source("https://bioconductor.org/biocLite.R")
